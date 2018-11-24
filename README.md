@@ -1,6 +1,6 @@
 # Piggy Metrics (Kubernetes) - Turbine Stream Service
 
-[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-turbine-stream-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-turbine-stream-service) [![codecov](https://codecov.io/gh/afermon/PiggyMetrics-turbine-stream-service/branch/master/graph/badge.svg)](https://codecov.io/gh/afermon/PiggyMetrics-turbine-stream-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-turbine-stream-service/blob/master/LICENCE)
+[![CircleCI](https://circleci.com/gh/afermon/PiggyMetrics-turbine-stream-service.svg?style=svg)](https://circleci.com/gh/afermon/PiggyMetrics-turbine-stream-service) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afermon/PiggyMetrics-turbine-stream-service/blob/master/LICENCE)
 
 In this project configuration, each microservice with Hystrix on board pushes metrics to Turbine via Spring Cloud Bus (with AMQP broker). The Monitoring project is just a small Spring boot application with [Turbine](https://github.com/Netflix/Turbine) and [Hystrix Dashboard](https://github.com/Netflix/Hystrix/tree/master/hystrix-dashboard).
 
@@ -17,5 +17,6 @@ Let's see our system behavior under load: Account service calls Statistics servi
 
 For more information please refer to the main repository [afermon/PiggyMetrics-Kubernetes](https://github.com/afermon/PiggyMetrics-Kubernetes)
 
-## References
+## Credits
+
 * Forked from [sqshq/PiggyMetrics](https://github.com/sqshq/PiggyMetrics)
